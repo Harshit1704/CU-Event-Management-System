@@ -58,7 +58,7 @@ section{
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgba(255,0,0,0.8);
 }
 .navbar .max-width{
     display: flex;
@@ -104,7 +104,7 @@ section{
     position: fixed;
     height: 45px;
     width: 42px;
-    background: crimson;
+    background: rgba(255,0,0,0.8);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -142,7 +142,7 @@ section{
     margin: 0 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important;
+    border: 2px solid rgba(255,0,0,0.8)!important;
     transition: all 0.3s ease;
 }
 .owl-dot.active{
@@ -151,7 +151,7 @@ section{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: rgba(255,0,0,0.8);!important;
 }
 
 
@@ -163,11 +163,16 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: rgba(255,0,0,0.8);
     text-decoration: none;
 }
 footer span a:hover{
     text-decoration: underline;
+}
+#majorevents
+{
+    padding-left: 380px;
+    padding-bottom: 25px;
 }
 
 #present
@@ -175,16 +180,189 @@ footer span a:hover{
     padding: 0px 300px 50px 380px;
     text-transform: uppercase;
 }
-.ongoing-event
-{
-    padding: 200px 300px 10px 300px;
-    font-family: 'Ubuntu', sans-serif;
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  padding-top: 150px;
 }
-.ongoing-event :hover
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 60%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  transition: 0.5s;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+#cu
 {
-    opacity: 0.9;
-    
-    transition: 0.5s;
+    padding-left: 680px;
+    padding-bottom: 25px;
+}
+.cucorner
+{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 450px;
+    padding-bottom: 100px;
+}
+.cucorner h3
+{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    color: blue;
+    text-decoration: underline;
+}
+.cucorner ul li
+{
+    list-style: none;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+.cucorner ul li:hover
+{
+    color: red;
+}
+.tech
+{
+    border: 2px solid red;
+    padding: 20px;
+    margin-right: 50px;
+    height: 200px;
+    width: 300px;
+}
+.nontech
+{
+    border: 2px solid red;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+}
+#job
+{
+    padding-left: 630px;
+    padding-bottom: 25px;
+}
+.jobsintern
+{
+    display: inline-flex;
+    padding-top: 20px;
+    padding-left: 450px;
+    padding-bottom: 100px;
+}
+.jobsintern h3
+{
+    padding-left: 50px;
+    padding-bottom: 25px;
+    color: blue;
+    text-decoration: underline;
+}
+.jobsintern ul li
+{
+    list-style: none;
+    padding-left: 45px;
+    padding-bottom: 10px;
+}
+.jobsintern ul li:hover
+{
+    color: red;
+}
+.jobs
+{
+    border: 2px solid red;
+    padding: 20px;
+    margin-right: 50px;
+    height: 200px;
+    width: 300px;
+}
+.intern
+{
+    border: 2px solid red;
+    padding: 20px;
+    height: 200px;
+    width: 300px;
+}
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
 }
 .img1
 {
