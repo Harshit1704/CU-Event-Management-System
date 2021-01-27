@@ -7,6 +7,10 @@
     box-sizing: border-box;
     text-decoration: none;
 }
+body
+{
+background :#f8d1d1;
+}
 html{
     scroll-behavior: smooth;
 }
@@ -16,10 +20,10 @@ html{
     width: 10px;
 }
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f5f4f4;
 }
 ::-webkit-scrollbar-thumb {
-    background: #888;
+    background: rgb(126, 125, 125);
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -48,31 +52,27 @@ section{
     justify-content: space-between;
 }
 .navbar{
-    background-color: rgba(255,0,0,0.8);
+    background-color: rgb(255, 255, 255);
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 30px 0;
+    padding: 10px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
-    padding: 15px 0;
-    background: rgba(255,0,0,0.8);
+    padding: 2px 0;
+    background: rgb(255, 255, 255);
 }
 .navbar .max-width{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.navbar .logo a{
-    color: white;
-    font-size: 35px;
-    font-weight: 600;
-}
-
-.navbar.sticky .logo a {
-    color: #fff;
+.navbar .logo img{
+    width: 200px;
+    height: 90px;  
+    
 }
 .navbar .menu li{
     list-style: none;
@@ -80,7 +80,7 @@ section{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
+    color: rgb(8, 6, 6);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -151,7 +151,7 @@ section{
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: rgba(255,0,0,0.8);!important;
+    background: rgba(255,0,0,0.8);
 }
 
 
@@ -169,12 +169,6 @@ footer span a{
 footer span a:hover{
     text-decoration: underline;
 }
-#majorevents
-{
-    padding-left: 380px;
-    padding-bottom: 25px;
-}
-
 #present
 {
     padding: 0px 300px 50px 380px;
@@ -195,7 +189,7 @@ img {vertical-align: middle;}
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 60%;
+  top: 62%;
   width: auto;
   padding: 16px;
   margin-top: -22px;
@@ -245,14 +239,14 @@ img {vertical-align: middle;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: rgb(247, 63, 63);
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
 
 .active, .dot:hover {
-  background-color: #717171;
+  background-color: #f89595;
 }
 
 /* Fading animation */
@@ -272,13 +266,20 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
-#cu
+.cu
+{   border-radius: 15px ;
+    display: inline-flex;
+    margin-left: 470px;
+    background-color: rgb(255, 255, 255);
+}
+.cu h1 
 {
-    padding-left: 680px;
-    padding-bottom: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+    color: red;
 }
 .cucorner
-{
+{   
     display: inline-flex;
     padding-top: 20px;
     padding-left: 450px;
@@ -288,8 +289,8 @@ img {vertical-align: middle;}
 {
     padding-left: 50px;
     padding-bottom: 25px;
-    color: blue;
-    text-decoration: underline;
+    color: rgb(233, 38, 13);
+  
 }
 .cucorner ul li
 {
@@ -303,23 +304,36 @@ img {vertical-align: middle;}
 }
 .tech
 {
-    border: 2px solid red;
+    border-radius: 15px ;
+    border: 2px solid #ffffff;
     padding: 20px;
     margin-right: 50px;
-    height: 200px;
+    height: 500px;
     width: 300px;
+    background-color: #ffffff;
 }
 .nontech
 {
-    border: 2px solid red;
+    border-radius: 15px ;
+    border: 2px solid #ffffff;
     padding: 20px;
-    height: 200px;
+    height: 500px;
     width: 300px;
+    background-color: #ffffff;
+
 }
-#job
+.job
 {
-    padding-left: 630px;
-    padding-bottom: 25px;
+    border-radius: 15px ;
+    display: inline-flex;
+    margin-left: 470px;
+    background-color: rgb(255, 255, 255);
+}
+.job h1 
+{
+    padding-left: 120px;
+    padding-right: 120px;
+    color: red;
 }
 .jobsintern
 {
@@ -332,8 +346,8 @@ img {vertical-align: middle;}
 {
     padding-left: 50px;
     padding-bottom: 25px;
-    color: blue;
-    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    
 }
 .jobsintern ul li
 {
@@ -347,18 +361,22 @@ img {vertical-align: middle;}
 }
 .jobs
 {
-    border: 2px solid red;
+    border-radius: 15px ;
+    border: 2px solid #ffffff;
     padding: 20px;
     margin-right: 50px;
-    height: 200px;
+    height: 500px;
     width: 300px;
+    background-color: #ffffff;
 }
 .intern
 {
-    border: 2px solid red;
+    border-radius: 15px ;
+    border: 2px solid #ffffff;
     padding: 20px;
-    height: 200px;
+    height: 500px;
     width: 300px;
+    background-color: #ffffff;
 }
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
