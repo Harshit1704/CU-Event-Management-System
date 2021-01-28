@@ -82,3 +82,14 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+// Chatbot
+$(document).ready(function(){
+  $('.chat_icon').click(function(event) {
+    $('.chat_box').toggleClass('active');
+    $('.conv-form-wrapper').convform({selectInputStyle: 'disable'});
+
+  });
+
+});
+//Chatbot End

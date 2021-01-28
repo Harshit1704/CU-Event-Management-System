@@ -10,9 +10,41 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="jquery.convform.js"></script>
+    <link rel="stylesheet" type="text/css" href="jquery.convform.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
+	<!-- Chatbot -->
+	
+	<div class = "chat_icon">
+		<i class="fas fa-robot"></i>
+	</div>
+	<div class="chat_box">
+		<div class="conv-form-wrapper">
+		<form action="" method="GET" class="hidden">
+			<select name="programmer" data-conv-question="Hello! I am a bot. Which type of events do you like?">
+	<option value="Technical">Technical</option>
+	<option value="Non-Technical">Non-Technical</option>
+</select>
+<div data-conv-fork="programmer">
+	<div data-conv-case="Non-Technical">
+	 	<input type="text" data-conv-question="OKK." data-no-answer="true">
+	</div>
+	<div data-conv-case="Technical">
+		<select name="thought" data-conv-question="Which level ? Beginner or Expert">
+			<option value="yes">Beginner</option>
+			<option value="no">Expert</option>
+		</select>
+	</div>
+</div>
+		</form>
+	</div>
+
+	</div>
+
+	<!-- Chatbot End -->
+
 	 <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>

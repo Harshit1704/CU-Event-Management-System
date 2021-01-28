@@ -30,10 +30,25 @@
             </div>
         </div>
     </nav>
-   
+    <br>
+    <div class="texteditor">
+    <script src="editor/ckeditor.js"></script>
+   <form method="post">
+    <textarea id="editor" name="editor">
+        
+    </textarea>
+    <input type="submit" name="submit">
+   </form>
+
+    <script type="text/javascript">
+        CKEDITOR.replace('editor');
+    </script>
+</div>
+<div class="footer">
 <footer>
         <span>Copyright by <a>CU Competitive Hub</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
     </footer>
+</div>
 <script src="script.js"></script>
 </body>
 </html>
