@@ -9,7 +9,7 @@
 }
 body
 {
-background :#f8d1d1;
+background :#fadcdc;
 }
 html{
     scroll-behavior: smooth;
@@ -52,17 +52,17 @@ section{
     justify-content: space-between;
 }
 .navbar{
-    background-color: rgb(255, 255, 255);
+    background-color: #ffffff;
     position: fixed;
     width: 100%;
     z-index: 999;
-    padding: 10px 0;
+    padding: 5px 0;
     font-family: 'Ubuntu', sans-serif;
     transition: all 0.3s ease;
 }
 .navbar.sticky{
     padding: 2px 0;
-    background: rgb(255, 255, 255);
+    background: #ffffff;
 }
 .navbar .max-width{
     display: flex;
@@ -71,7 +71,7 @@ section{
 }
 .navbar .logo img{
     width: 200px;
-    height: 90px;  
+    height: 90px; 
     
 }
 .navbar .menu li{
@@ -87,7 +87,8 @@ section{
     transition: color 0.3s ease;
 }
 .navbar .menu li a:hover{
-    color: blue;
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
 }
 .navbar.sticky .menu li a:hover{
     color: #fff;
@@ -384,7 +385,7 @@ img {vertical-align: middle;}
     left: 30px;
     bottom: 0;
     font-size: 80px;
-    color: rgb(255,0,0);
+    color: rgb(241, 7, 7);
     cursor: pointer;
     z-index: 1000;
     padding-bottom: 10px;
