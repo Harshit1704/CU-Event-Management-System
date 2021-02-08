@@ -72,7 +72,7 @@ section{
 .navbar .logo img{
     width: 200px;
     height: 90px; 
-    
+    margin-right: 10px;
 }
 .navbar .menu li{
     list-style: none;
