@@ -349,3 +349,37 @@ footer span a:hover{
     line-height: 39px;
     font-size: 25px;
 }
+.aboutus
+{
+    padding-top: 180px;
+}
+.aboutus h1{
+    padding-left: 700px;
+    padding-bottom: 20px;
+}
+.aboutus p{
+    margin: 0 60px 10px 60px;
+    font-size: 20px;
+}
+.aboutcu
+{
+    padding-top: 80px;
+}
+.aboutcu h2{
+    padding-left: 630px;
+    padding-bottom: 20px;
+}
+.aboutcuip
+{
+    display: inline-flex;
+    margin: 0 60px 10px 60px;
+}
+.aboutcu img{
+    width: 400px;
+    height: 150px;
+}
+.aboutcu p{
+    padding-left: 25px;
+    padding-top: 3px;
+    font-size: 20px;
+}
