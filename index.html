@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
- <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CU Competitive Hub</title>
+    <title>Chandigarh University Event Management System</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
@@ -15,10 +16,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 </head>
 <body>
-	<!-- Chatbot -->
+    <!-- Chatbot -->
 	
 	<div class = "chat_icon">
-		<i class="fas fa-user-astronaut"></i>
+		<i class="fas fa-user-astronaut" aria-hidden="true"></i>
 	</div>
 	<div class="chat_box">
 		<div class="conv-form-wrapper">
@@ -44,56 +45,55 @@
 	</div>
 
 	<!-- Chatbot End -->
-
-	 <div class="scroll-up-btn">
-        <i class="fas fa-angle-up"></i>
-    </div>
-    <nav class="navbar">
-        <div class="max-width">
-            <div class="logo"><img src="logop.png"></div>
-            <ul class="menu">
-                <li><a href="index.html" class="menu-btn">HOME</a></li>
-				<li><a href="about.html" class="menu-btn">ABOUT</a></li>
-				<li><a href="contact.html" class="menu-btn">CONTACT</a></li>
-                <li><a href="admin.html" class="menu-btn">ADMIN</a></li>
-                 
+    
+    <div class="header">
+        <div class="logo"><img src = "pictures/logo.jpg" class="logocs"></div>
+        <div class="menu">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
             </ul>
-            <div class="menu-btn">
-                <i class="fas fa-bars"></i>
+        </div>
+        <div class="admin"><a href="admin.html">ADMIN</a></div>
+    </div>
+    <nav>
+        <ul>
+            <li><a href="#section1">CU-Corner</a></li>
+            <li><a href="#section2">Jobs & Internships</a></li>
+        </ul>
+    </nav>
+    <div class="majorevents">
+    <div class="slider">
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <div class="slide first">
+                <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210118165147/Technical-Scripter-Event-2020-By-GeeksforGeeks-Date-Extended-25th-Feb-2021.png" id="majorimage">   
+            </div>
+            <div class="slide">
+                <img src="pictures/hashcode.png" id="majorimage">
+            </div>
+            <div class="slide">
+                <img src="pictures/codejam.png" id="majorimage">
+            </div>
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
             </div>
         </div>
-    </nav>
-    <div class="slideshow-container">
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <a href="https://www.geeksforgeeks.org/technical-scripter-event-2020-by-geeksforgeeks/" target="_blank"><img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20210118165147/Technical-Scripter-Event-2020-By-GeeksforGeeks-Date-Extended-25th-Feb-2021.png" style="width:100%"></a>
-  <div class="text"></div>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <a href="https://codingcompetitions.withgoogle.com/codejam"><img src="codejam.png" style="width:100%"></a>
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <a href="https://codingcompetitions.withgoogle.com/hashcode/"><img src="hashcode.png" style="width:100%"></a>
-</div>
-
-<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-<br><br><br><br>
-    
-	<div class="cu"><h1><b>CU-CORNER</b></h1></div>
+        <div class="navigation-manual">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+        </div>
+    </div>
+    </div>
+    <br><br><br>
+    <div id="section1">
+    <div class="cu"><h1><b>CU-CORNER</b></h1></div>
 	<div class="cucorner">
 	<div class="tech">
 		<h3>Technical Events</h3>
@@ -113,7 +113,9 @@
 	</ul>
     </div>
 </div>
-<br><br>
+</div>
+<br><br><br>
+<div id="section2">
     <div class="job"><h1><b>JOBS AND INTERNSHIPS</b></h1></div>
 	<div class="jobsintern">
 	<div class="jobs">
@@ -134,9 +136,13 @@
 	</ul>
     </div>
 </div>
+</div>
+<div class="arrow-btn">
+    <a href="#"><span class="fas fa-angle-up"></span></a>
+</div>
 <footer>
-        <span>Copyright by <a>CU Competitive Hub</a> | <span class="far fa-copyright"></span> 2021 All rights reserved.</span>
-    </footer>
-<script src="script.js"></script>
+    <span>Copyright by <a>CU Competitive Hub</a> | &copy; 2021 All rights reserved.</span>
+</footer>
+    <script src="script.js"></script>
 </body>
 </html>
