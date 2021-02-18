@@ -1,4 +1,4 @@
-# CU-Competitive-hub
+# CU-Event Management System
 
 CU-Competitive-hub is a web page initially for students of Chandigarh University for getting them notified about all comptetions and events held in college and outside college 
 which are technical and non technical. Most of you may be familar with site like sarkariresult.com which i think most of us had used, basically it is similar to it.
