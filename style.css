@@ -4,24 +4,26 @@
 }
 html{
     scroll-behavior: smooth;
+    
 }
 body
 {
-background :#fadcdc;
+background :#dfd8d8;
 }
 .header
 {
     width: 100%;
     display: inline-flex;
     font-size: 22px;
-    border-bottom: 2px solid red;
+    border-bottom: 3px solid red;
     background: rgb(255, 255, 255);
     position: fixed;
+  
     
 }
 .menu{
-    margin-top: 45px;
-    padding-left: 330px;
+    margin-top: 30px;
+    padding-left: 300px;
 }
 .menu ul li{
     list-style: none;
@@ -31,18 +33,18 @@ background :#fadcdc;
 
 .admin
 {
-    padding-left: 400px;
-    padding-top: 45px;
+    padding-left: 300px;
+    padding-top: 23px;
     color: black;
 }
 .logo{
  padding-left: 25px;
-padding-top: 15px;
+padding-top: 5px;
 }
 .logocs
 {
-    width: 240px;
-    height: 100px;
+    width: 200px;
+    height: 80px;
 }
 .menu ul li a{
     text-decoration: none;
@@ -51,13 +53,18 @@ padding-top: 15px;
 .menu ul li a:hover{
   color:red;
   transition: all 0.5s ease;
+  text-decoration: underline;
 }
 .admin a{
-    text-decoration: none;
-    color: black;
+  background-color: #b32117fb;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
 }
 .admin a:hover{
-    color: red;
+    color: rgb(3, 3, 3);
     transition: all 0.5s ease;
 }
 nav ul {
@@ -85,8 +92,9 @@ nav ul li a{
 {
     width: 900px;
     height: 500px;
-    border-radius: 10px;    
+    border-radius: 0px;    
     overflow: hidden;
+    padding-top: 100px;
 }
 .slides
 {
@@ -113,9 +121,9 @@ nav ul li a{
     justify-content: center;
 }
 .manual-btn{
-    border: 2px solid #40D3DC;
+    border: 2px solid #dc404015;
     padding: 5px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     transition: 1s;
 }
@@ -124,7 +132,7 @@ nav ul li a{
 
 }
 .manual-btn:hover{
-    background: #40D3DC;
+    background: #a52020;
 }
 #radio1:checked ~ .first{
     margin-left: 0;
@@ -136,14 +144,14 @@ nav ul li a{
     margin-left: -40%;
 }
 .navigation-auto{
-    position: absolute;
+    position: absolute;                            
     display: flex;
     width: 900px;
     justify-content: center;
     margin-top: 460px;
 }
 .navigation-auto div{
-    border: 2px solid #40D3DC;
+    border: 2px solid #dc4040;
     padding: 5px;
     border-radius: 10px;
     transition: 1s;
@@ -152,13 +160,13 @@ nav ul li a{
     margin-right: 40px;
 }
 #radio1:checked ~ .navigation-auto .auto-btn1{
-    background: #40D3DC;
+    background: #dc4040;
 }
 #radio2:checked ~ .navigation-auto .auto-btn2{
-    background: #40D3DC;
+    background: #dc4040;
 }
 #radio3:checked ~ .navigation-auto .auto-btn3{
-    background: #40D3DC;
+    background: #dc4040;
 }
 .cu
 {   border-radius: 15px ;
