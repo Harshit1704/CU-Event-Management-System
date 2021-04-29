@@ -9,6 +9,7 @@ html{
 body
 {
 background :#dfd8d8;
+font-family: 'Noto Sans JP', sans-serif;
 }
 .header
 {
@@ -16,9 +17,13 @@ background :#dfd8d8;
     display: inline-flex;
     font-size: 22px;
     border-bottom: 3px solid red;
-    background: rgb(255, 255, 255);
+    background: rgb(238, 228, 228);
     position: fixed;
-  
+    -webkit-box-shadow: 0 10px 6px -6px rgb(156, 50, 50);
+	-moz-box-shadow: 0 10px 6px -6px rgb(202, 21, 21);
+	box-shadow: 0 10px 6px -6px rgb(177, 26, 26);
+    
+    
     
 }
 .menu{
@@ -282,6 +287,7 @@ nav ul li a{
     width: 300px;
     background-color: #ffffff;
 }
+
 footer{
     background: #111;
     padding: 15px 23px;
@@ -293,7 +299,7 @@ footer span a{
     text-decoration: none;
 }
 footer span a:hover{
-    text-decoration: underline;
+    
 }
 /* Chatbot */
 .chat_icon
@@ -390,4 +396,66 @@ footer span a:hover{
     padding-left: 25px;
     padding-top: 3px;
     font-size: 20px;
+}
+
+.imgpo{
+    
+    width:900px; 
+    height:500px;
+    overflow: hidden;
+    padding-top: 20px;
+    display: flex;
+    padding-left:5px;
+    padding-bottom: 30px;
+}
+.imp{
+    padding-top: 10px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 30px;
+    font-size: x-large;
+    padding-bottom: 10px;
+    border-left: 5px solid rgb(230, 0, 0);
+    background-color: rgb(238, 228, 228);
+
+}
+.abt{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-left: 30px;
+    padding-top: 40px;
+    padding-right:30px;
+}
+.pp{
+   background-color: rgb(255, 255, 255);
+   
+   margin-right: 300px;
+   width: auto;
+   -moz-box-shadow:   3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
+  margin-bottom: 150px;
+  
+  
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 15px;
+    text-align: left;
+    margin-top: 50px;
+}
+table td{
+    border: 3px solid rgb(97, 96, 96);
+    padding:10px;
+    
+}
+.hlol{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 60px;
+        margin-top: 100px;
+        margin-right: 200px;
+        padding-right: 300px;
+
 }
