@@ -35,11 +35,18 @@ font-family: 'Noto Sans JP', sans-serif;
     display: inline-flex;
     padding-right: 50px;
 }
-
+.rightbut{
+    display: inline-flex;
+}
 .admin
 {
-    padding-left: 300px;
-    padding-top: 23px;
+    padding-left: 150px;
+    padding-top: 27px;
+    padding-right: 10px;
+    color: black;
+}
+.logout{
+    padding-top: 27px;
     color: black;
 }
 .logo{
@@ -66,12 +73,22 @@ padding-top: 5px;
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
 }
 .admin a:hover{
     color: rgb(3, 3, 3);
     transition: all 0.5s ease;
 }
+.logout a{
+    background-color: #b32117fb;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+  }
+  .logout a:hover{
+      color: rgb(3, 3, 3);
+      transition: all 0.5s ease;
+  }
 nav ul {
     display: inline-flex;
     list-style: none;
@@ -91,7 +108,7 @@ nav ul li a{
 }
 .majorevents{
     padding-top: 50px;
-    padding-left: 300px;
+    padding-left: 10px;
 }
 .slider
 {
@@ -176,7 +193,7 @@ nav ul li a{
 .cu
 {   border-radius: 15px ;
     display: inline-flex;
-    margin-left: 470px;
+    margin-left: 180px;
     background-color: rgb(255, 255, 255);
     margin-top: 150px;
 }
@@ -190,7 +207,7 @@ nav ul li a{
 {   
     display: inline-flex;
     padding-top: 30px;
-    padding-left: 400px;
+    padding-left: 90px;
     padding-bottom: 100px;
 }
 .cucorner h3
@@ -234,7 +251,7 @@ nav ul li a{
 {
     border-radius: 15px ;
     display: inline-flex;
-    margin-left: 470px;
+    margin-left: 180px;
     background-color: rgb(255, 255, 255);
     margin-top: 150px
 }
@@ -248,12 +265,12 @@ nav ul li a{
 {
     display: inline-flex;
     padding-top: 20px;
-    padding-left: 400px;
+    padding-left: 90px;
     padding-bottom: 100px;
 }
 .jobsintern h3
 {
-    padding-left: 50px;
+    padding-left: 60px;
     padding-bottom: 25px;
     color: rgb(255, 0, 0);
     
@@ -408,6 +425,13 @@ footer span a:hover{
     padding-left:5px;
     padding-bottom: 30px;
 }
+.imgpo1{  
+    width:900px; 
+    overflow: hidden;
+    display: flex;
+    padding-left:5px;
+    padding-bottom: 30px;
+}
 .imp{
     padding-top: 10px;
     font-family: 'Noto Sans JP', sans-serif;
@@ -426,7 +450,6 @@ footer span a:hover{
 }
 .pp{
    background-color: rgb(255, 255, 255);
-   
    margin-right: 300px;
    width: auto;
    -moz-box-shadow:   3px 3px 5px 6px #ccc;
@@ -436,6 +459,30 @@ footer span a:hover{
   
   
 }
+.pp2{
+    background-color: rgb(255, 255, 255);
+    margin-right: 300px;
+    margin-left: 300px;
+    width: auto;
+    -moz-box-shadow:   3px 3px 5px 6px #ccc;
+   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+   box-shadow:         3px 3px 5px 6px #ccc;
+   margin-bottom: 150px;
+   
+   
+ }
+.pp1{
+    background-color: rgb(247, 237, 216);
+    margin-left: 300px;
+    margin-right: 300px;
+    width: auto;
+    -moz-box-shadow:   3px 3px 5px 6px #ccc;
+   -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+   box-shadow:         3px 3px 5px 6px #ccc;
+   margin-bottom: 150px;
+   
+   
+ }
 table{
     border: 1px solid black;
     border-collapse: collapse;
