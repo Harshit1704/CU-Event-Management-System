@@ -22,15 +22,21 @@ font-family: 'Noto Sans JP', sans-serif;
     -webkit-box-shadow: 0 10px 6px -6px rgb(156, 50, 50);
 	-moz-box-shadow: 0 10px 6px -6px rgb(202, 21, 21);
 	box-shadow: 0 10px 6px -6px rgb(177, 26, 26);
-    
-    
-    
 }
 .menu{
     margin-top: 30px;
     padding-left: 300px;
 }
+.menu1{
+    margin-top: 30px;
+    padding-left: 270px;
+}
 .menu ul li{
+    list-style: none;
+    display: inline-flex;
+    padding-right: 50px;
+}
+.menu1 ul li{
     list-style: none;
     display: inline-flex;
     padding-right: 50px;
@@ -199,8 +205,8 @@ nav ul li a{
 }
 .cu h1 
 {
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 220px;
+    padding-right: 220px;
     color: red;
 }
 .cucorner
@@ -252,6 +258,8 @@ nav ul li a{
     border-radius: 15px ;
     display: inline-flex;
     margin-left: 180px;
+    padding-left: 100px;
+    padding-right: 120px;
     background-color: rgb(255, 255, 255);
     margin-top: 150px
 }
