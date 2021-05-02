@@ -8,15 +8,29 @@
 "sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		
 <style>
+	body{
+		        background-image: url("pictures/studentbg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+	}
     .container{
 		padding-top: 110px;
 	}
+	.logo{
+                padding-left: 120px;
+                padding-top: 20px;
+            }
+    .logocs{
+                height: 110px;
+                width: 300px;
+	}
 	.main{
-	padding:40px;
+	padding:40px 40px 40px 40px;
 	font-family: 'Helvetica', serif;
-	box-shadow: 5px 5px 7px 5px #888888;
-	
+	/*box-shadow: 5px 5px 7px 5px #888888;*/
+	background-color: rgba(255,255,255,0.5);
 }
+
 .main h1{
 	font-size: 40px;
 	text-align:center;
@@ -25,7 +39,9 @@
 }
 .main h3{
 	margin-left: 175px;
-	color: #d13131;
+	color: black;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
 input{
 	font-family: 'Helvetica', serif;
@@ -39,12 +55,16 @@ input{
 input[type=submit] {
 	font-family: 'Helvetica', serif;
 	width: 100%;
-	background-color: #d13131;
+	background-color: #dd1616;
 	border: none;
 	color: white;
 	padding: 16px 32px;
 	margin: 10px 2px;
 	border-radius: 10px;
+}
+input[type=submit]:hover{
+	background-color: #0c09ca;
+	transition: 0.5s ease;
 }
 
 </style>
@@ -53,7 +73,6 @@ input[type=submit] {
 </head>
 <body>
    <br>
-	<br>
 	<br>
 	<div class="container" >
 		<div class="row">
@@ -64,7 +83,7 @@ input[type=submit] {
 					
 			<form action="/login" method="POST">
 					
-			<h1> CU-EMS </h1>
+			<div class="logo"><img src = "pictures/logo1.png" class="logocs"></div>
 			<h3>Student Login</h3>
 							
 			<input  type="text" name="uid" id="uid"

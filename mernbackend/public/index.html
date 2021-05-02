@@ -9,10 +9,18 @@
         <title>CUEMS</title>
 
         <style>
+            body{
+                background-image: url("pictures/cubg.jpg");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .full{
+                background-color:rgba(255,255,255,0.5);
+                margin: 110px 300px 100px 300px;
+            }
             .logo{
-                margin-top: 190px;
-                padding-left: 620px;
-
+                padding-left: 320px;
+                padding-top: 50px;
             }
             .logocs{
                 height: 110px;
@@ -20,32 +28,74 @@
             }
             h1{
                 padding-top: 50px;
-                padding-left: 630px;
+                padding-left: 320px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .cuems{
+                color: red;
             }
             .logbut{
                 display: inline-flex;
                 padding-top: 32px;
+                padding-bottom: 50px;
             }
             .loginbutton
             {
-                border: 1px solid red;
-                padding: 20px;
+                border: 2px solid #ff0000;
                 margin-right: 70px;
-                margin-left:550px;
+                margin-left:270px;
+                padding: 5px;
+                margin-bottom: 100px;
+                background-color: #dd1616;
+                border-radius: 10px;
+            }
+            .loginbutton a{
+                text-decoration: none;
+                color:white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .loginbutton:hover{
+                background-color: #0c09ca;
+                transition: 0.5s ease;
+                border: 2px solid blue;
+                
+            }
+            .loginbutton a:hover{
+                color: white;
             }
             .loginbutton2
             {
-                border: 1px solid red;
-                padding: 20px;
+                border: 2px solid #ff0000;
+                margin-bottom: 100px;
+                padding: 5px;
+                background-color: #dd1616;
+                border-radius: 10px;
+            }
+            .loginbutton2 a{
+                text-decoration: none;
+                color:white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            .loginbutton2:hover{
+                background-color: #0c09ca;
+                transition: 0.5s ease;
+                border: 2px solid blue;
+                
+            }
+            .loginbutton2 a:hover{
+                color: white;
             }
         </style>
 </head>
 <body>
-    <div class="logo"><img src = "pictures/logo1.png" class="logocs"></div>
-    <h1>Welcome to CU-EMS</h1>
+    <div class="full">
+        <div class="logo"><img src = "pictures/logo1.png" class="logocs"></div>
+    <h1>Welcome to <span class="cuems">CU-EMS</span></h1>
     <div class = "logbut">
         <div class="loginbutton"><a href = "login"><h2>Student Login</h2></a></div>
         <div class="loginbutton2"><a href = "login2"><h2>Admin Login</h2></a></div>
     </div>
+    </div>
+    
 </body>
 </html>
