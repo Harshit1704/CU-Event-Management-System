@@ -8,7 +8,7 @@ html{
 }
 body
 {
-background :#dfd8d8;
+background :#ffffff;
 font-family: 'Noto Sans JP', sans-serif;
 }
 .header
@@ -22,6 +22,9 @@ font-family: 'Noto Sans JP', sans-serif;
     -webkit-box-shadow: 0 10px 6px -6px rgb(156, 50, 50);
 	-moz-box-shadow: 0 10px 6px -6px rgb(202, 21, 21);
 	box-shadow: 0 10px 6px -6px rgb(177, 26, 26);
+    
+    
+    
 }
 .menu{
     margin-top: 30px;
@@ -29,26 +32,27 @@ font-family: 'Noto Sans JP', sans-serif;
 }
 .menu1{
     margin-top: 30px;
-    padding-left: 270px;
+    padding-left: 300px;
 }
 .menu ul li{
     list-style: none;
     display: inline-flex;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 .menu1 ul li{
     list-style: none;
     display: inline-flex;
-    padding-right: 50px;
+    padding-right: 40px;
 }
 .rightbut{
     display: inline-flex;
+    padding-right: 10px;
 }
 .admin
 {
     padding-left: 150px;
     padding-top: 27px;
-    padding-right: 10px;
+    padding-right: 20px;
     color: black;
 }
 .logout{
@@ -113,7 +117,6 @@ nav ul li a{
     
 }
 .majorevents{
-    padding-top: 50px;
     padding-left: 10px;
 }
 .slider
@@ -122,7 +125,7 @@ nav ul li a{
     height: 500px;
     border-radius: 0px;    
     overflow: hidden;
-    padding-top: 100px;
+    padding-top: 20px;
 }
 .slides
 {
@@ -203,10 +206,13 @@ nav ul li a{
     background-color: rgb(255, 255, 255);
     margin-top: 150px;
 }
+.cuems{
+    color: red;
+}
 .cu h1 
 {
-    padding-left: 220px;
-    padding-right: 220px;
+    padding-left: 200px;
+    padding-right: 200px;
     color: red;
 }
 .cucorner
@@ -242,6 +248,9 @@ nav ul li a{
     height: 500px;
     width: 300px;
     background-color: #ffffff;
+    -moz-box-shadow:   3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 }
 .nontech
 {
@@ -251,6 +260,9 @@ nav ul li a{
     height: 500px;
     width: 300px;
     background-color: #ffffff;
+    -moz-box-shadow:   3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 
 }
 .job
@@ -258,8 +270,6 @@ nav ul li a{
     border-radius: 15px ;
     display: inline-flex;
     margin-left: 180px;
-    padding-left: 100px;
-    padding-right: 120px;
     background-color: rgb(255, 255, 255);
     margin-top: 150px
 }
@@ -302,6 +312,9 @@ nav ul li a{
     height: 500px;
     width: 300px;
     background-color: #ffffff;
+    -moz-box-shadow:   3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 }
 .intern
 {
@@ -311,6 +324,9 @@ nav ul li a{
     height: 500px;
     width: 300px;
     background-color: #ffffff;
+    -moz-box-shadow:   3px 3px 5px 6px #ccc;
+    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+    box-shadow:         3px 3px 5px 6px #ccc;
 }
 
 footer{
@@ -450,6 +466,14 @@ footer span a:hover{
     background-color: rgb(238, 228, 228);
 
 }
+.imp1{
+    height: 30px;
+    font-family: 'Noto Sans JP', sans-serif;
+    padding: 5px;
+    font-size: large;
+    border-left: 3px solid rgb(230, 0, 0);
+    background-color: rgb(238, 228, 228);
+}
 .abt{
     font-family: 'Noto Sans JP', sans-serif;
     padding-left: 30px;
@@ -480,7 +504,7 @@ footer span a:hover{
    
  }
 .pp1{
-    background-color: rgb(247, 237, 216);
+    background-color: rgb(255, 255, 255);
     margin-left: 300px;
     margin-right: 300px;
     width: auto;
@@ -488,7 +512,7 @@ footer span a:hover{
    -webkit-box-shadow: 3px 3px 5px 6px #ccc;
    box-shadow:         3px 3px 5px 6px #ccc;
    margin-bottom: 150px;
-   
+   margin-top: 100px;
    
  }
 table{
