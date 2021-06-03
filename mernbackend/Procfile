@@ -1,0 +1,1 @@
+web: nodemon mernbackend/src/app.js
