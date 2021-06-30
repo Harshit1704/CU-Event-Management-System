@@ -10,7 +10,7 @@
 <li>Clone the repository into your local system</li>
 <li>Start your mongo and mongoDB from the <b><i>WIndows Powershell</b></i></li>
 <li>Open VS Code in the folder and in it open a new terminal</li>
-<li>Now in VS Code open the mernbackend directly using the following command :</li>
+<li>Now in VS Code open the mernbackend directory using the following command :</li>
 <pre><b>cd mernbackend</b></pre>
 <li>After that you have to start the server using Nodemon. Type the following command in your terminal to start the server :</li>
 <pre><b>npm run dev</b></pre>
